@@ -197,6 +197,68 @@ header {
   left: 230px;
   color: antiquewhite;
 }
+.why-chose-us {
+  text-align: center;
+  padding: 100px 300px;
+}
+.chose-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.chose-description {
+  padding-top: 16px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card {
+  padding: 0px 120px;
+  display: flex;
+  gap: 24px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+.card-left {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 10px;
+}
+.card-right {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 10px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.card-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.last-card img{
+  width: 100px;
+  height: 100px;
+  
+}
+.last-card{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+ width:570px;
+ height: 210px;
+ 
+ margin:40px auto;
+ padding: 16px;
+ 
+ 
+}
 /* media queries */
 @media screen and (max-width: 600px) {
   .banner-btn,
