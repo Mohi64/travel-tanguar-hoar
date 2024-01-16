@@ -70,33 +70,142 @@ header {
   margin: 4rem 16rem;
   border-radius: 1rem;
 }
-.popular-tour{
-    display: flex;
-    margin: 4rem 7rem;
-    gap:2rem;
+.popular-tour {
+  display: flex;
+  margin: 4rem 7rem;
+  gap: 2rem;
 }
-.tour-heading{
-color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+.tour-heading {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
-.popular-tour-image{
-    width: 100%;
+.popular-tour-image {
+  width: 80%;
+}
+.destination-title {
+  color: #131318;
+  text-align: center;
+
+  font-size: 3rem;
+
+  font-weight: 800;
+}
+.destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  padding: 10px 135px;
+}
+.destination-image-row1 {
+  padding: 24px 120px;
+  display: flex;
+  gap: 25px;
+}
+.row1-left {
+  position: relative;
+}
+.row1-left img {
+  width: 100%;
+}
+.row1-text {
+  position: absolute;
+  top: 160px;
+  left: 200px;
+  color: #fff;
+}
+.row1-right {
+  position: relative;
+}
+.row1-right img {
+  width: 100%;
+}
+.row1-right-text {
+  position: absolute;
+  top: 160px;
+  left: 240px;
+  color: #fff;
+}
+.destination-image-row2 {
+  padding: 0px 120px;
+  display: flex;
+  gap: 24px;
+}
+.row2-left {
+  position: relative;
+}
+.row2-left img {
+  width: 100%;
+}
+.row2-text {
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  color: #fff;
+}
+.row2-midle-image {
+  position: relative;
+}
+.row2-midle-image img {
+  width: 100%;
+}
+.row2-midle-text {
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  color: #fff;
+}
+.row2-right {
+  position: relative;
+}
+.row2-right img {
+  width: 100%;
+}
+.row2-right-text {
+  position: absolute;
+  top: 140px;
+  left: 80px;
+  color: #fff;
+}
+.destination-image-rows3 {
+  padding: 24px 120px;
+  display: flex;
+  gap: 24px;
+}
+.row3-left {
+  position: relative;
+}
+.row3-text {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  color: aliceblue;
+}
+.row3-left img {
+  width: 100%;
+}
+.row3-left {
+  position: relative;
+}
+.row3-text-right {
+  position: absolute;
+  top: 120px;
+  left: 230px;
+  color: antiquewhite;
 }
 /* media queries */
-@media screen and (max-width:600px){
-    .banner-btn,
-    .popular-tour,
-    .website-name,
-    .menu-name ul,
-    .nav-container  
-
-    {
-        flex-direction: column;
-        padding: 20px 20px;
-        
-    }
-    
-    
+@media screen and (max-width: 600px) {
+  .banner-btn,
+  .popular-tour,
+  .website-name,
+  .menu-name ul,
+  .nav-container {
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 0;
+  }
 }
